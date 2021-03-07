@@ -1,0 +1,190 @@
+body {
+	font-family: Montserrat,Sans Pro, Helvetica, sans-serif;
+	margin: 0px;
+}
+
+.amazon-logo{
+	background-color: black;
+	display: flex;
+}
+
+.alogo{
+	height: 40px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;	
+}
+
+.container{
+	display: inline-table;
+	justify-content: center;
+	
+}
+.watch-img{
+	margin-top: 30px;
+	position: realtive;
+	text-align: center;
+	color: white;
+
+}
+
+.imgwatch{
+	height: 500px;
+	position: absolute;
+	margin-left:310px;
+	z-index: -1;
+}
+
+@keyframes beat{
+	to {transform: scale(1.4);}
+}
+
+.heart{
+    height:60px;
+	width: 60px;
+	margin-top: 200px;
+	margin-left:523px;
+	position: absolute;
+	animation: beat .25s infinite alternate;
+	transform-origin: center;
+	display: none;
+}
+
+.time_box{
+	padding: 10px;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 554px;
+	transform: translate(-50%, -50%);
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.rate{
+	padding: 10px;
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 550px;
+	transform: translate(-50%, -50%);
+	font-weight: bold;
+	font-size: 30px;
+	color: gray;
+	display: none;
+}
+
+.description{
+	margin-top: 0px;
+	margin-left: 780px;
+	position: absolute;
+}
+
+p{
+	margin: 0px;
+}
+
+.Select_Color{
+	margin-top: 40px;
+}
+
+.select-color{
+	display: flex;
+}
+
+.itim {
+	background-color: #23211f;
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	margin-left: 0px;
+	margin-right: 5px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+.pula {
+	background-color: #ca3d22;
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+.asul {
+	background-color: #565681;
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+.lavender {
+	background-color: #8a5362;
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+.Feature{
+	margin-top: 40px;
+}
+
+.features{
+	display: flex;
+}
+
+.oras{
+	background-color: #D3D3D3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.tibok{
+	background-color: #D3D3D3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.bumili{
+	background-color: #FFA500;
+	padding: 15px;
+	margin-top: 40px;
+	width: 130px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
